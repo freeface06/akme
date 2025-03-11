@@ -1,0 +1,23 @@
+.lan-btn {
+    background-color: white;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 0;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .lan-btn:hover {
+    background: black;
+    color: white;
+  }
+  
+.header-top {
+    gap: 10px;
+}
+
+  .pd-0 {
+    padding: 0;
+  }
