@@ -1,74 +1,21 @@
-.lan-btn {
-  background-color: white;
-  width: 100px;
-  border: none;
-  border-radius: 20px;
-  font-size: 12px;
-  font-weight: 600;
-  padding: 5px 0;
-  transition: all 0.3s ease-in-out;
+.login-footer-links {
+  text-align: center;
+  margin: 20px 0 30px;
+  font-size: 0.9rem;
 }
 
-.lan-btn:hover {
-  background: black;
-  color: white;
+.login-footer-links a {
+  color: #555;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0 5px;
+  transition: color 0.2s;
 }
 
-.header-top {
-  gap: 10px;
+.login-footer-links a:hover {
+  color: #1BC6B5;
 }
 
-.pd-0 {
-  padding: 0;
-}
-
-.icon-box span {
-  font-size: 5rem;
-}
-
-.left-menu {
-  background: #f5f5f5;
-  padding: 35px 15px 35px 15px;
-  border-radius: 10px;
-}
-
-.left-menu .menu-title {
-  color: #64adb1;
-}
-
-.left-menu ul {
-  list-style-type: none;
-  padding: 0;
-  /* 기본 들여쓰기 제거도 같이 하면 좋음 */
-  margin: 0;
-}
-
-.left-menu ul li {
-  padding-bottom: 20px;
-}
-
-.left-menu ul li a {
-  color: black;
-  font-weight: 700;
-}
-
-.left-menu ul li a.active {
-  font-weight: 700;
-  border-bottom: 2px solid #64adb1; /* 원하는 색상과 두께 */
-  padding-bottom: 2px; /* 텍스트와 밑줄 간격 조절 */
-}
-
-.inner-title {
-  font-weight: 900;
-}
-
-.center {
-  display: flex;
-  vertical-align: middle;
-  align-items: center;
-}
-
-.rule-content {
-  height: 60vh;
-  overflow: auto;
+.login-footer-links .divider {
+  color: #aaa;
 }
