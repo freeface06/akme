@@ -355,3 +355,38 @@
     width: 100%;
   }
 }
+
+.rule-content .article {
+  margin-bottom: 30px;
+  padding: 0 10px;
+}
+
+.rule-content .article h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.rule-content .article p {
+  margin: 0;
+  text-align: justify;
+}
+
+.rule-content .article ol {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.rule-content .article ol li {
+  margin-bottom: 5px;
+}
+
+.rule-content .chapter-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 30px;
+  background-color: #fff;
+}
